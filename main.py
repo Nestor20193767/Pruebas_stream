@@ -69,7 +69,8 @@ if st.button('Pedro?'):
     st.balloons()
     st.image("https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExa2l3ZGMzMzFzcWRxZzUyaTVyMmxuOW5yNWhwM2praTgyZGRmcjh4aiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/tHIRLHtNwxpjIFqPdV/giphy.webp", width=300)
     # Asegúrate de que el archivo "audio.mp3" está en el mismo directorio
-    audio_file = "C://thesis_PUCP//la canción de pedro __ PEDRO - Raffaella Carrà, Jaxomy, Agatino Romero (Remix) [sub. español]_RXKabdUBiWM.mp3"
+    #audio_file = "C://thesis_PUCP//la canción de pedro __ PEDRO - Raffaella Carrà, Jaxomy, Agatino Romero (Remix) [sub. español]_RXKabdUBiWM.mp3"
+    audio_file = "https://github.com/Nestor20193767/Pruebas_stream/blob/main/la%20canci%C3%B3n%20de%20pedro%20__%20PEDRO%20-%20Raffaella%20Carr%C3%A0%2C%20Jaxomy%2C%20Agatino%20Romero%20(Remix)%20%5Bsub.%20espa%C3%B1ol%5D_RXKabdUBiWM.mp3"
 
     # Reproduce el archivo MP3 en Streamlit
     st.audio(audio_file, format="audio/mp3", autoplay=True, start_time="26s")
